@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
 </head>
+
 <body>
-    
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Us</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Email Section -->
+        <section>
+            <h2>Email Address</h2>
+            <p>You can reach us at: <a href="mailto:email@example.com">email@example.com</a></p>
+        </section>
+
+        <!-- Social Media Links -->
+        <section>
+            <h2>Follow Us</h2>
+            <p>
+                <a href="https://twitter.com/conference" target="_blank">Twitter</a><br />
+                <a href="https://facebook.com/conference" target="_blank">Facebook</a><br />
+                <a href="https://linkedin.com/company/conference" target="_blank">LinkedIn</a>
+            </p>
+        </section>
+
+        <!-- Google Maps Embed -->
+        <section>
+            <h2>Our Location</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0192459913514!2d-122.42177828468373!3d37.77492977975985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808b2bdac273%3A0x8e42138f71b1d5b2!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1620211234567"
+                width="100%" height="300" frameborder="0" allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+
+        <!-- Contact Form -->
+        <section>
+            <h2>Contact Us Form</h2>
+            <form>
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" required><br /><br />
+
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" required><br /><br />
+
+                <label for="message">Message:</label><br />
+                <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; copyright 2025 Conference. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
